@@ -1,0 +1,45 @@
+            transition: background-color 0.3s ease;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #next-btn {
+            display: none;
+        }
+
+        .quiz-question {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .quiz-answer {
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .quiz-answer:hover {
+            background-color: #e0f7e0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>無断転載について学ぶクイズ</h1>
+        <div id="quiz-container">
+            <!-- クイズの内容はここに表示されます -->
+        </div>
+        <button id="submit-btn">回答する</button>
+        <button id="next-btn">次の問題</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
